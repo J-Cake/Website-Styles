@@ -3,7 +3,6 @@ textarea#input {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 5px;
-
     box-shadow: none;
     resize: none;
 }
@@ -16,32 +15,32 @@ textarea#input {
     font-size: 12pt;
 }
 
-#chat-buttons button,
-.button {
+#chat-buttons button, .button {
     border: none;
     background: purple;
     border-radius: 2px;
     width: 150px;
     padding: 10px;
+    color: #eee;
 }
 
 .message {
+    border: 1px solid #aaa;
+    border-top: 3px solid purple;
+    padding: 5px;
+    border-radius: 5px;
     margin: 5px;
-    background: #fff;
-    border: none !important;
-    border-left: 3px solid purple;
 }
 
 .mine .messages {
-    background: transparent;
+    background: #eee;
 }
 
 .messages {
     background: transparent;
 }
 
-a,
-span.more {
+a, span.more {
     color: purple;
     text-decoration: none;
 }
@@ -74,16 +73,16 @@ code {
 }
 
 a.action-link:hover {
-    background: purple !important;
+    background: purple ;
     color: #eee;
 }
 
 a.action-link {
-    background: transparent !important;
+    background: transparent ;
 }
 
 .message.reply-parent {
-    background: transparent !important;
+    background: transparent ;
 }
 
 .signature {
@@ -104,7 +103,7 @@ a.action-link {
     border-top: 3px solid purple;
     border-radius: 5px;
     padding: 10px;
-    width: auto !important;
+    width: auto ;
 }
 
 .btn-close {
@@ -120,11 +119,6 @@ span.feed-icon {
     display: none;
 }
 
-.message {
-    border: 1px solid #aaa;
-    border-bottom: 2px solid purple;
-}
-
 .sidebar-widget:not(.sidebar-widget > #present-users) {
     display: none;
 }
@@ -134,7 +128,7 @@ span.feed-icon {
 }
 
 .sidebar-widget:has(#present-users) {
-    display: block !important;
+    display: block ;
 }
 
 #info {
@@ -158,9 +152,10 @@ span.feed-icon {
 }
 
 .present-user {
-    opacity: 1 !important;
+    opacity: 1 ;
 }
 
 .button:hover {
     background: #5e0368;
 }
+
