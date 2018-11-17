@@ -1,0 +1,22 @@
+textarea#input {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+
+    box-shadow: none;
+    resize: none;
+}
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+#chat-buttons button {
+    border: none;
+    background: purple;
+    border-radius: 2px;
+    width: 150px;
+    padding: 10px;
+}
