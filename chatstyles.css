@@ -11,12 +11,139 @@ textarea#input {
 * {
     outline: none;
     box-sizing: border-box;
+font-family: "segoe UI";
+font-weight: 400;
+font-size: 12pt;
 }
 
-#chat-buttons button {
+#chat-buttons button, .button {
     border: none;
     background: purple;
     border-radius: 2px;
     width: 150px;
     padding: 10px;
+}
+
+.message {
+margin: 5px;
+background: #fff;
+border: none !important;
+border-left: 3px solid purple;
+}
+
+.mine .messages {
+background: transparent;
+}
+.messages {
+background: transparent;
+}
+
+a, span.more {
+color: purple;
+text-decoration: none;
+}
+
+span.mention {
+background: purple;
+padding: 3px;
+border-radius: 3px;
+color: #eee;
+}
+
+.tag {
+min-width: 100px;
+border: 2px solid #830491;
+background: purple;
+color: #ddd;
+}
+
+input#searchbox {
+padding: 5px;
+border-radius: 3px;
+border: 1px solid #aaa;
+}
+
+code {
+background: #eee;
+padding: 5px;
+border-radius: 5px;
+color: #333;
+}
+
+a.action-link:hover {
+background: purple !important;
+color: #eee;
+}
+
+a.action-link {
+background: transparent !important;
+}
+
+.message.reply-parent {
+background: transparent !important;
+}
+
+.signature {
+overflow: visible;
+}
+
+.username {
+height: auto;
+}
+.monologue .tiny-signature .username {
+overflow: visible;
+}
+.popup {
+background: #eee;
+border: 1px solid #aaa;
+border-top: 3px solid purple;
+border-radius: 5px;
+padding: 10px;
+width: auto !important;
+}
+.btn-close {
+background: #aaa;
+content: "";
+}
+.btn-close:hover {
+background: #a00;
+}
+span.feed-icon {
+display: none;
+}
+.message {
+border: 1px solid #aaa;
+border-bottom: 2px solid purple;
+}
+
+.sidebar-widget:not(.sidebar-widget > #present-users) {
+display: none;
+}
+#room-ad {
+display: none;
+}
+
+.sidebar-widget:has(#present-users) {
+display: block !important;
+}
+#info {
+display: none;
+}
+.fr.msg-small {
+display: none;
+}
+#starred-posts {
+display: none;
+}
+.present-user.user-container img {
+opacity:1;
+}
+#toggle-notify {
+display: none;
+}
+.present-user {
+opacity: 1 !important;
+}
+.button:hover {
+background: #5e0368;
 }
